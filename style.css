@@ -1,0 +1,93 @@
+html, body{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    color: rgb(247, 128, 37);
+}
+small{
+    color: rgba(247, 128, 37, 0.559);
+}
+.graph{
+    width: 80%;
+    height: 70%;
+    background-image: url('./img/755368722babd95b0d6a79029823c80c.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px #444;
+}
+.main-line{
+    width: 95%;
+    height: 95%;
+    border-left: 2px solid red;
+    border-bottom: 2px solid red;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding-bottom: 0px;
+}
+.bar{
+    position: relative;
+    width: 10%;
+    background-color: rgb(4, 66, 113);
+    color: rgb(215, 217, 216);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 5px;
+}
+.inputs{
+    margin-top: 20px;
+    background-color: rgb(238, 196, 142);
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 2px solid red;
+}
+#first{
+    background-color: rgb(87, 3, 3);
+}
+.inputs input:first-child{
+    border: 2px solid rgb(87, 3, 3);
+}
+#second{
+    background-color: rgb(1, 1, 59);
+}
+.inputs input:nth-child(2){
+    border: 2px solid rgb(1, 1, 59);
+}
+#third{
+    background-color: rgb(133, 133, 6);
+}
+.inputs input:nth-child(3){
+    border: 2px solid rgb(133, 133, 6);
+}
+#forth{
+    background-color: rgb(4, 86, 4);
+}
+.inputs input:nth-child(4){
+    border: 2px solid rgb(4, 86, 4);
+}
+#fifth{
+    background-color: brown;
+}
+.inputs input:nth-child(5){
+    border: 2px solid brown;
+}
+input{
+    width: 50px;
+}
+button{
+    color: #fff;
+    background-color: rgb(9, 101, 9);
+    border: 2px solid rgb(9, 101, 9);
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: bolder;
+}
